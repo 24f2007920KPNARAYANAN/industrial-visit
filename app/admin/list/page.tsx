@@ -98,7 +98,7 @@ export default function PeopleList() {
           {/* New Filter Chip Row */}
           <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide no-scrollbar">
             <FilterChip label="All" active={activeFilter === 'ALL'} onClick={() => setActiveFilter('ALL')} />
-            <FilterChip label="Unpaid Bal (₹2455)" active={activeFilter === 'UNPAID_REMAINING'} onClick={() => setActiveFilter('UNPAID_REMAINING')} color="red" />
+            <FilterChip label="Unpaid Bal (₹2625)" active={activeFilter === 'UNPAID_REMAINING'} onClick={() => setActiveFilter('UNPAID_REMAINING')} color="red" />
             <FilterChip label="Unpaid Train" active={activeFilter === 'UNPAID_TRAIN'} onClick={() => setActiveFilter('UNPAID_TRAIN')} color="red" />
             <FilterChip label="Unpaid Initial" active={activeFilter === 'UNPAID_INITIAL'} onClick={() => setActiveFilter('UNPAID_INITIAL')} color="red" />
           </div>
