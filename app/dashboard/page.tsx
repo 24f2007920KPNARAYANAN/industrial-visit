@@ -122,7 +122,7 @@ export default function Dashboard() {
                 </div>
                 <div className="p-8 space-y-6">
                     <div className="pb-4 border-b border-white/20">
-                      <PaymentStatus label="Remaining Amount" amount="₹2675" isPaid={profile.remaining_amount_paid} isPrimary />
+                      <PaymentStatus label="Remaining Amount" amount="₹2625" isPaid={profile.remaining_amount_paid} isPrimary />
                     </div>
                     <PaymentStatus label="Train Fees" amount="₹429" isPaid={profile.train_fees_paid} />
                     <PaymentStatus label="Advance" amount="₹95" isPaid={profile.advance_paid} />
