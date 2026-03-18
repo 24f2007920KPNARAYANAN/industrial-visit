@@ -140,7 +140,7 @@ export default function EditPerson({ params }: { params: Promise<{ id: string }>
           {/* SECTION 4: PAYMENTS */}
           <div className="pt-8 border-t border-white/20 space-y-4">
             <p className="text-[9px] font-black text-slate-400 uppercase tracking-[0.3em] mb-4">Payment Verification</p>
-            <Toggle label="Remaining Balance (₹2455)" active={person.remaining_amount_paid} onToggle={() => setPerson({...person, remaining_amount_paid: !person.remaining_amount_paid})} isPrimary />
+            <Toggle label="Remaining Balance (₹2625)" active={person.remaining_amount_paid} onToggle={() => setPerson({...person, remaining_amount_paid: !person.remaining_amount_paid})} isPrimary />
             <div className="grid grid-cols-1 gap-3 pt-2">
               <Toggle label="Train Fees (₹429)" active={person.train_fees_paid} onToggle={() => setPerson({...person, train_fees_paid: !person.train_fees_paid})} />
               <Toggle label="Advance (₹95)" active={person.advance_paid} onToggle={() => setPerson({...person, advance_paid: !person.advance_paid})} />
