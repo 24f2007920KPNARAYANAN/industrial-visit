@@ -32,6 +32,51 @@ export default function DocumentVault() {
       type: "PDF", 
       url: "https://efkhiinrjcbmunjhnvmt.supabase.co/storage/v1/object/public/iv-documents/Initial_principle_allowance.pdf" 
     },
+    { 
+      name: "DRIVERS DETAILS", 
+      type: "PDF", 
+      url: "https://efkhiinrjcbmunjhnvmt.supabase.co/storage/v1/object/public/iv-documents/DRIVER%20DETAILS.pdf" 
+    },
+    { 
+      name: "PERMIT", 
+      type: "PDF", 
+      url: "https://efkhiinrjcbmunjhnvmt.supabase.co/storage/v1/object/public/iv-documents/PERMIT.pdf" 
+    },
+    { 
+      name: "PARENT PERMISSION", 
+      type: "PDF", 
+      url: "https://efkhiinrjcbmunjhnvmt.supabase.co/storage/v1/object/public/iv-documents/PARENT%20PERMISSION.pdf" 
+    },
+    { 
+      name: "HOSTEL PERMISSION FORM", 
+      type: "PDF", 
+      url: "https://efkhiinrjcbmunjhnvmt.supabase.co/storage/v1/object/public/iv-documents/HOSTEL%20PERMISSION%20FORM.pdf" 
+    },
+    { 
+      name: "BOARDING AND LODGING DETAILS", 
+      type: "PDF", 
+      url: "https://efkhiinrjcbmunjhnvmt.supabase.co/storage/v1/object/public/iv-documents/BOARDING%20AND%20LODGING%20DETAILS.pdf" 
+    },
+    { 
+      name: "SCHEDULE OF VISIT", 
+      type: "PDF", 
+      url: "https://efkhiinrjcbmunjhnvmt.supabase.co/storage/v1/object/public/iv-documents/SCHEDULE%20OF%20VISIT.pdf" 
+    },
+    { 
+      name: "CONFIRMATION OF IV", 
+      type: "PDF", 
+      url: "https://efkhiinrjcbmunjhnvmt.supabase.co/storage/v1/object/public/iv-documents/CONFIRMATION%20OF%20IV.pdf" 
+    },
+    { 
+      name: "STUDENTS LIST", 
+      type: "PDF", 
+      url: "https://efkhiinrjcbmunjhnvmt.supabase.co/storage/v1/object/public/iv-documents/STUDENTS%20LIST.pdf" 
+    },
+    { 
+      name: "IV APPLICATION FORM", 
+      type: "PDF", 
+      url: "https://efkhiinrjcbmunjhnvmt.supabase.co/storage/v1/object/public/iv-documents/IV%20APPLICATION%20FORM.pdf" 
+    },
   ]
 
   useEffect(() => {
