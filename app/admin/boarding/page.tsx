@@ -32,6 +32,8 @@ const DEFAULT_STUDENTS: Student[] = [
   { id: 16, name: "Richu Thomas", boarding: "Vadakara", leaving: "Vadakara", hasBoarded: false, hasLeft: false },
   { id: 17, name: "Samith", boarding: "Vadakara", leaving: "Vadakara", hasBoarded: false, hasLeft: false },
   { id: 18, name: "Abhishek C V", boarding: "Vadakara", leaving: "Vadakara", hasBoarded: false, hasLeft: false },
+  { id: 19, name: "Thanmay Sudev", boarding: "Thalassery", leaving: "Thalassery", hasBoarded: false, hasLeft: false },
+  { id: 20, name: "Devapriya Das", boarding: "Thalassery", leaving: "Thalassery", hasBoarded: false, hasLeft: false },
 ]
 
 export default function BoardingPage() {
