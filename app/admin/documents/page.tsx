@@ -15,7 +15,7 @@ export default function DocumentVault() {
     { 
       name: "IV Excel Sheet", 
       type: "XLSX", 
-      url: "https://efkhiinrjcbmunjhnvmt.supabase.co/storage/v1/object/public/iv-documents/IV.xlsx" 
+      url: "https://efkhiinrjcbmunjhnvmt.supabase.co/storage/v1/object/public/iv-documents/IV%20S4%20ECE.xlsx" 
     },
     { 
       name: "Advance Proof", 
